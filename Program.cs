@@ -9,6 +9,9 @@ namespace MVC
         static void Main(string[] args)
         {
             ProdutoController produtoController = new ProdutoController();
+            
+            produtoController.Cadastrar();
+
             produtoController.MostrarProdutos();
             
         }
